@@ -10,6 +10,7 @@ public class BologgingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BologgingApplication.class, args);
+		System.out.println("new commit");
 	}
 	
 	@Bean
